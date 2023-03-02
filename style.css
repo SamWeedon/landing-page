@@ -31,3 +31,31 @@ a {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
