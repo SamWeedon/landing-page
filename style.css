@@ -35,27 +35,96 @@ a {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #1F2937;
+    padding: 100px 20px;
 }
 
 .hero-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+    
 }
 
 .left {
-    
+    max-width: 400px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-sub {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+}
+.info-content h2 {
+    color: #1F2937;
+    margin-top: 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 150px;
+}
+
+.box img {
+    width: 150px;
+}
+
+.box p {
+    font-size: 14px;
+    color: rgb(78, 78, 80);
+    font-weight: 100;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7Eb;
+    padding: 40px 10px;
+}
+
+.quote-content {
+    max-width: 800px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+    margin-top: 0;
 }
